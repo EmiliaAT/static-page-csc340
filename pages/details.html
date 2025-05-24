@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+
+    <!-- Embedded CSS Styles -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+
+        a {
+            color: inherit;
+        }
+
+        .header {
+            width: 100%;
+            color: white;
+            background-color: cadetblue;
+        }
+
+        .header-inner {
+            padding: 25px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-title {
+            font-family: "Oswald";
+            font-weight: 700;
+        }
+
+        .header-nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .header-nav-item {
+            width: 100px;
+            font-family: "Oswald";
+            font-weight: 400;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .header-nav-item:hover {
+            font-size: 24px;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        .content-inner {
+            padding: 50px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            gap: 5%;
+        }
+    </style>
+
+    <!-- Embedded JS Scripts -->
+    <script>
+
+    </script>
+</head>
+
+<body>
+    <!-- Site Header -->
+    <header class="header">
+        <div class="header-inner">
+            <a href="#" class="header-title">
+                <h1>Fox Gallery</h1>
+            </a>
+            <div class="header-nav">
+                <a href="index.html" class="header-nav-item">Home</a>
+                <a href="about.html" class="header-nav-item">About</a>
+                <a href="#" class="header-nav-item">Details</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Site Content -->
+    <main class="content">
+        <div class="content-inner">
+        </div>
+    </main>
+</body>
+
+</html>
